@@ -11,7 +11,7 @@ import (
 func determineListenAddress() (string, error) {
 	port := os.Getenv("PORT")
 	if port == "" {
-		return "", fmt.Errorf("$PORT not set")
+		port = "8080"
 	}
 	return ":" + port, nil
 }
