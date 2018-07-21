@@ -1,2 +1,1 @@
-web: appswebcommand
-
+web: webserver
